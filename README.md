@@ -287,3 +287,111 @@ Developed as part of AI Engineering / Generative AI learning projects.
 # ⭐ If You Like This Project
 
 Please consider giving the repository a star ⭐ on GitHub.
+
+
+
+Project : 2
+# 🔗 Multiple Prompt Chaining with LangChain & Groq
+
+An intelligent LangChain workflow that demonstrates sequential prompt chaining using Groq LLMs. The system translates reviews, summarizes them, detects language, and generates AI-powered follow-up responses.
+
+---
+
+# ✨ Features
+
+- 🌍 Translate reviews to English
+- 📝 Generate concise summaries
+- 🧠 Detect review language
+- 💬 Create follow-up responses
+- 🔗 Multi-step prompt chaining with LangChain
+- ⚡ Fast inference using Groq Llama 3.3 70B
+
+---
+
+# 🏗️ Architecture
+
+Review → Translate → Summarize → Detect Language → Generate Response
+
+---
+
+# 🛠️ Tech Stack
+
+- LangChain
+- Groq
+- Llama 3.3 70B
+- Python
+- LCEL
+
+---
+
+# 📂 Project Structure
+
+```text
+Project-2-Multiple-Prompts-Chaining/
+│
+├── main.py
+├── README.md
+├── requirements.txt
+└── .env.example
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file:
+
+```env
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+---
+
+# ⚙️ Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Run the Project
+
+```bash
+python main.py
+```
+
+---
+
+# 📊 Example Input
+
+```python
+review_text = "Este producto es increíble!"
+```
+
+---
+
+# 📊 Example Output
+
+```python
+{
+    "English_Review": "This product is incredible!",
+    "summary": "The customer loved the product.",
+    "followup_message": "¡Gracias por tu excelente comentario!"
+}
+```
+
+---
+
+# 🚀 Future Improvements
+
+- Streamlit UI
+- Sentiment Analysis
+- RAG Integration
+- Agentic AI Workflows
+
+---
+
+# 👨‍💻 Author
+
+Generative AI & Agentic AI Learning Projects
